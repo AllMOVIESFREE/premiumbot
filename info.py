@@ -64,7 +64,8 @@ LAZY_RENAMERS = (lazy_renamers + ADMINS) if lazy_renamers else [] #Add user id o
 LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyurlers for lazyurlers in environ.get('LZURL_PRIME_USERS', '5965340120').split()]
 
 # Others
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+mRjdECDBKjYwNzhl/186') # Tutorial video link for opening shortlink website 
+# TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+mRjdECDBKjYwNzhl/186') # Tutorial video link for opening shortlink website 
+TUTORIAL = 'https://t.me/how_to_download_movies_ws/359' # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
