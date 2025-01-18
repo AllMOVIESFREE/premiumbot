@@ -107,7 +107,7 @@ Here is the help for my COMMANDS."""
 
 """
     ABOUT_TXT = """✯ 𝕚𝕥𝕤❜𝕤 me: {}
-✯ OWNER: <a href=https://t.me/PREMIUM_MOVIES_WEB>👑 LUCIFER MORNINGSTAR 👑</a>
+✯ OWNER: <a href=https://t.me/PREMIUM_MOVIES_WEB>👑 LUCIFER MORNINGSTAR  👑</a>
 ✯ DEV: <a href=https://t.me/LazyDeveloper>🦋 LazyDeveloper 🦋</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹

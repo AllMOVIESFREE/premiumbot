@@ -33,7 +33,7 @@ async def start(client, message):
                 InlineKeyboardButton('🔍 Group​​​​​', url=f'https://t.me/{MOVIE_GROUP_USERNAME}')
                 ],
                 [
-                InlineKeyboardButton('🙆🏻 Hᴇʟᴘ 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                    InlineKeyboardButton('🙆🏻 Hᴇʟᴘ 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
                 ],[
                 InlineKeyboardButton('⪦ 🎬 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ 🎞 ⪧', url='https://t.me/+mRjdECDBKjYwNzhl')
                 ],[
@@ -120,6 +120,11 @@ async def start(client, message):
             [
                 InlineKeyboardButton(
                     "🤖 Join Updates Channel", url=invite_link.invite_link
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    "🦋 Join YouTube Channel 🦋", url="https://youtube.com/@MOVIESPRIMEHUB_UPDATES"
                 )
             ]
         ]

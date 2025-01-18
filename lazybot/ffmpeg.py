@@ -94,7 +94,7 @@ async def take_screen_shot(video_file, output_directory, ttl):
 #         draw = ImageDraw.Draw(img)
 
 #         # Text properties
-#         text = "𝐌𝐎𝐕𝐈𝐄𝐒𝐏𝐑𝐈𝐌𝐄𝐇𝐔𝐁"
+#         text = "lazy"
 #         font_size = int(img_width * 0.05)  # Dynamic font size based on image width
 #         font = ImageFont.truetype("arial.ttf", font_size)  # Change to your preferred font
 #         text_width, text_height = draw.textsize(text, font=font)
@@ -496,7 +496,7 @@ import time
 
 
 
-# async def add_watermark(image_path, output_path, watermark_text="Join @+mRjdECDBKjYwNzhl"):
+# async def add_watermark(image_path, output_path, watermark_text="Join @lazy"):
 #     try:
 #         img = Image.open(image_path)
 #         width, height = img.size

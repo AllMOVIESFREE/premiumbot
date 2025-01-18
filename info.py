@@ -19,9 +19,9 @@ def is_enabled(value, default):
 
 # Bot information *
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '139996'))
-API_HASH = environ.get('API_HASH', "68e791e6161a53ae86a661a12")
-BOT_TOKEN = environ.get('BOT_TOKEN', "7828878995:AAHXWFjY5q09iojkmb3BDCFsGMu9jafHU68")
+API_ID = int(environ.get('API_ID', '1332816'))
+API_HASH = environ.get('API_HASH', "68e791e616100248098b0a53ae86a661a12")
+BOT_TOKEN = environ.get('BOT_TOKEN', "78237399995:AAHXWFjY5qN87YAR36eb3BDCFsGMu9jafHU68")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -46,8 +46,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 LAZY_DIVERTING_CHANNEL_ID = environ.get('LAZY_DIVERTING_CHANNEL_ID', '-1002178995654').split()
 
 # MongoDB information *
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://lazy:Zm@lazydev786.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "lazy")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://lazy:Zabintkhab7808@lazydev786.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "lazydev786")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lazy_filesx')
 
 # LOG CHANNELS *
@@ -70,7 +70,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [𝐌𝐎𝐕𝐈𝐄𝐒𝐏𝐑𝐈𝐌𝐄𝐇𝐔𝐁™](https://t.me/+mRjdECDBKjYwNzhl)</b>⚡\n\n📂<b>File Name:</b> ⪧ {file_caption} \n <b>Size: </b>🧩{file_size}\n\n💃")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [𝐌𝐎𝐕𝐈𝐄𝐒𝐏𝐑𝐈𝐌𝐄𝐇𝐔𝐁™™](https://t.me/+mRjdECDBKjYwNzhl)</b>⚡\n\n📂<b>File Name:</b> ⪧ {file_caption} \n <b>Size: </b>🧩{file_size}\n\n💃")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
