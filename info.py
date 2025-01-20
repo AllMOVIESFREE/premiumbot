@@ -21,7 +21,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '1332816'))
 API_HASH = environ.get('API_HASH', "68e791e616100248098b0a53ae86a661a12")
-BOT_TOKEN = environ.get('BOT_TOKEN', "78237399995:AAHXWFjY5qN87YAR36eb3BDCFsGMu9jafHU68")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8016251564:AAH_HUZaeyVhGE0GSX1xQfkBp7W3U9-qdmg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -46,7 +46,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 LAZY_DIVERTING_CHANNEL_ID = environ.get('LAZY_DIVERTING_CHANNEL_ID', '-1002178995654').split()
 
 # MongoDB information *
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://lazy:Zabintkhab7808@lazydev786.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://iamthedevilonly:Devil@yuvrajvs.pmhyz.mongodb.net/?retryWrites=true&w=majority&appName=yuvrajvs")
 DATABASE_NAME = environ.get('DATABASE_NAME', "lazydev786")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lazy_filesx')
 
