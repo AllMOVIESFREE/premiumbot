@@ -19,15 +19,15 @@ def is_enabled(value, default):
 
 # Bot information *
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '1332816'))
-API_HASH = environ.get('API_HASH', "68e791e616100248098b0a53ae86a661a12")
+API_ID = int(environ.get('API_ID', '29155314'))
+API_HASH = environ.get('API_HASH', "8c612d2371bb07cd405adec606582b60")
 BOT_TOKEN = environ.get('BOT_TOKEN', "8016251564:AAH_HUZaeyVhGE0GSX1xQfkBp7W3U9-qdmg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 WISH_PICS = (environ.get('WISH_PICS', 'https://i.ibb.co/6R1t6W5/Untitled-design-20241231-134430-0000.png')).split()
-PICS = (environ.get('PICS', 'https://telegra.ph/file/7e56d907542396289fee4.jpg https://telegra.ph/file/9aa8dd372f4739fe02d85.jpg https://telegra.ph/file/adffc5ce502f5578e2806.jpg https://telegra.ph/file/6937b60bc2617597b92fd.jpg https://telegra.ph/file/09a7abaab340143f9c7e7.jpg https://telegra.ph/file/5a82c4a59bd04d415af1c.jpg https://telegra.ph/file/323986d3bd9c4c1b3cb26.jpg https://telegra.ph/file/b8a82dcb89fb296f92ca0.jpg https://telegra.ph/file/31adab039a85ed88e22b0.jpg https://telegra.ph/file/c0e0f4c3ed53ac8438f34.jpg https://telegra.ph/file/eede835fb3c37e07c9cee.jpg https://telegra.ph/file/e17d2d068f71a9867d554.jpg https://telegra.ph/file/8fb1ae7d995e8735a7c25.jpg https://telegra.ph/file/8fed19586b4aa019ec215.jpg https://telegra.ph/file/8e6c923abd6139083e1de.jpg https://telegra.ph/file/0049d801d29e83d68b001.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://telegra.ph/file/eede835fb3c37e07c9cee.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg https://graph.org/file/9f879555b7bc14c09ccf4-ff55d0205e1bc8a15b.jpg')).split()
 PRIME_LOGO = (environ.get('PRIME_LOGO', 'https://i.ibb.co/bdDzzxk/luciferqrcode.jpg'))
 
 # payment
@@ -35,7 +35,7 @@ QR_CODE_IMG = environ.get('QR_CODE_IMG','https://i.ibb.co/bdDzzxk/luciferqrcode.
 UPI_ID = environ.get('UPI_ID', 'lucifermornigstar666@axl') #enter your upi id here - grab it from your online payment methods.
 
 # Admins, Channels & Users *
-ADMINS = [int(admin) for admin in environ.get('ADMINS', '5965340120 5448908073 5590491131').split()]
+ADMINS = [int(admin) for admin in environ.get('ADMINS', '6424894431').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -47,11 +47,11 @@ LAZY_DIVERTING_CHANNEL_ID = environ.get('LAZY_DIVERTING_CHANNEL_ID', '-100217899
 
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://iamthedevilonly:Devil@yuvrajvs.pmhyz.mongodb.net/?retryWrites=true&w=majority&appName=yuvrajvs")
-DATABASE_NAME = environ.get('DATABASE_NAME', "lazydev786")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lazy_filesx')
+DATABASE_NAME = environ.get('DATABASE_NAME', "yuvrajvs")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucifer_files')
 
 # LOG CHANNELS *
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001820894005'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002394165174'))
 LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', '-1001990341540'))
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1001855682845'))
 PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS', '-1002213371318'))
@@ -67,7 +67,7 @@ LZURL_PRIME_USERS = [int(lazyurlers) if id_pattern.search(lazyurlers) else lazyu
 # TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+mRjdECDBKjYwNzhl/186') # Tutorial video link for opening shortlink website 
 TUTORIAL = 'https://t.me/how_to_download_movies_ws/359' # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Subscription_Chats')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
@@ -137,7 +137,7 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-OWNER_USERNAME = "LazyDeveloper"
+OWNER_USERNAME = "PREMIUM_MOVIES_WEB"
 
 lazydownloaders = [int(lazydownloaders) if id_pattern.search(lazydownloaders) else lazydownloaders for lazydownloaders in environ.get('PRIME_DOWNLOADERS', '').split()]
 PRIME_DOWNLOADERS = (lazydownloaders) if lazydownloaders else []
@@ -175,7 +175,7 @@ DISCUSSION_CHAT_USRNM = "Discusss_Here" #without @
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/+mRjdECDBKjYwNzhl"
+DOWNLOAD_TEXT_URL = "https://t.me/how_to_download_movies_ws/362"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
